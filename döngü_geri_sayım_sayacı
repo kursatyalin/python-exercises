@@ -1,0 +1,9 @@
+# time modülünü import et
+import time
+
+saniye = int(input("Geri sayım kaç saniye sürecek?")
+
+for i in range(saniye):
+  print(str(saniye - i) + " saniye kaldı.")
+  # Her bir döngü sonunda  1 saniye bekle
+  time.sleep(1)
